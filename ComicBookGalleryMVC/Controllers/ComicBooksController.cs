@@ -4,18 +4,23 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ComicBookGalleryMVC.Controllers
-{
-    public class ComicBooksController : Controller //inherits from base Controller class
-    {
-        public string Index()
-        {
-            return "this is the comic books default method";
-        }
-        public string Detail()
-        {
-            return "hello from comic books detail method";
-        }
 
+namespace ComicBookGallery.Controllers
+{
+    public class ComicBooksController : Controller
+    {
+        public ActionResult Detail()
+        {
+
+            return View();
+            /*if (DateTime.Today.DayOfWeek == DayOfWeek.Saturday)
+            {
+                return Redirect("/");
+
+            }
+            return Content("Hello from the comic book controller");
+
+    */
+        }
     }
 }
