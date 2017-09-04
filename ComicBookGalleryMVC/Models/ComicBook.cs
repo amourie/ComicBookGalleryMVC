@@ -24,8 +24,7 @@ namespace ComicBookGalleryMVC.Models
 
 
         public string CoverImageFileName {
-
-
+            
             get
             {
                 return SeriesTitle.Replace(" ","-").ToLower() + "-" + IssueNumber + ".jpg";
