@@ -15,6 +15,8 @@ namespace ComicBookGallery.Controllers
 
         private ComicBookRepository _comicBookRepository = null;
 
+
+        //Constructor method
         public ComicBooksController() {
             _comicBookRepository = new ComicBookRepository();
         }

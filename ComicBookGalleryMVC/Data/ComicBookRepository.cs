@@ -25,12 +25,13 @@ namespace ComicBookGalleryMVC.Data
                     new Artist() { Name = "Victor Olazaba", Role = "Inks" },
                     new Artist() { Name = "Edgar Delgado", Role = "Letters" },
                     new Artist() { Name = "Chris Eliopoulos", Role = "Colours" }
-              }
+              },
+                Id = 1
             },
               new ComicBook()
             {
-                SeriesTitle = "The Amazing Spider Man 2",
-                IssueNumber = 700,
+                SeriesTitle = "The Amazing Spider Man",
+                IssueNumber = 657,
                 DescriptionHtml = "<p>Final issue!Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>",
                 Artists = new Artist[]
               {
@@ -39,13 +40,14 @@ namespace ComicBookGalleryMVC.Data
                     new Artist() { Name = "Victor Olazaba", Role = "Inks" },
                     new Artist() { Name = "Edgar Delgado", Role = "Letters" },
                     new Artist() { Name = "Chris Eliopoulos", Role = "Colours" }
-              }
+              },
+                Id = 2
             },
 
                new ComicBook()
             {
-                SeriesTitle = "The Amazing Spider Man 3",
-                IssueNumber = 700,
+                SeriesTitle = "Bone",
+                IssueNumber = 50,
                 DescriptionHtml = "<p>Final issue!Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>",
                 Artists = new Artist[]
               {
@@ -54,7 +56,8 @@ namespace ComicBookGalleryMVC.Data
                     new Artist() { Name = "Victor Olazaba", Role = "Inks" },
                     new Artist() { Name = "Edgar Delgado", Role = "Letters" },
                     new Artist() { Name = "Chris Eliopoulos", Role = "Colours" }
-              }
+              },
+                Id = 3
             }
     };
 
